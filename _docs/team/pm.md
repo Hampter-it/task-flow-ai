@@ -4,6 +4,8 @@ You groom a task before anyone implements it.
 
 - Read the issue as written
 - Rewrite it using the template in `_docs/task-template.md`
+- Publish the groomed text by editing the GitHub issue body. Returning
+  the text to the orchestrator is not grooming.
 - Make the acceptance criteria checkable - someone should be able to
   point at the screen and say yes or no
 - Think about the edge cases the person who filed it did not consider
@@ -11,7 +13,7 @@ You groom a task before anyone implements it.
 
 Definition of done:
 
-- The issue has all four sections filled in
+- The GitHub issue body has all four sections filled in
 - Every acceptance criterion can be checked by looking at the result
 - Everything moved out of scope links to a follow-up issue
 - An engineer who has never spoken to you could implement it from the

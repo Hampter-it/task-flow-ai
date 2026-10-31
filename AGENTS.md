@@ -9,6 +9,11 @@ Rules
 - Dependencies are added in `pyproject.toml`. Do not add one without
   asking
 - Adhere to clean code practices and SOLID principles by ensuring every class has a single responsibility, depends on abstractions rather than concrete implementations, and is open for extension but closed for modification.
+- Every lifecycle step must be visible on GitHub: the groomed issue body,
+  the implementation comment, and the QA verdict. A subagent's final
+  response does not count as the GitHub record.
+- If `gh` is unavailable, use the GitHub REST API. Do not skip an issue
+  update because the CLI is missing.
 
 
 Documents

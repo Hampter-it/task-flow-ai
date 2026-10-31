@@ -8,6 +8,8 @@ You implement one groomed task at a time.
 - Write tests for what you built
 - Do not close the issue
 - Commit regularly
+- Publish an issue comment with the commit hash, commands run, and their
+  results. Returning this only to the orchestrator is not enough.
 
 Definition of done:
 
