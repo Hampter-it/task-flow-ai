@@ -93,7 +93,7 @@ Cover at least these cases for the task API:
   - updating only `title` leaves the other fields alone;
   - `description: null` clears the description;
   - `title: null` is rejected with `422`;
-  - an empty body returns `200` and changes nothing;
+  - an empty JSON object (`{}`) returns `200` and changes nothing;
   - a missing id returns `404`;
   - invalid field types return `422`.
 - `DELETE /tasks/{id}`:

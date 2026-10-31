@@ -101,14 +101,15 @@ tokens above so generated components inherit the system:
 | `--primary`, `--primary-foreground` | `--primary`, `--primary-foreground` |
 | `--secondary`, `--secondary-foreground` | `--muted`, `--foreground` |
 | `--muted`, `--muted-foreground` | `--muted`, `--muted-foreground` |
-| `--accent`, `--accent-foreground` | `--primary-subtle`, `--primary-subtle-foreground` |
+| `--accent`, `--accent-foreground` | `--muted`, `--foreground` |
 | `--destructive`, `--destructive-foreground` | `--danger`, `--danger-foreground` |
 | `--border`, `--input` | `--border` |
 | `--ring` | `--focus` |
 | `--radius` | `8px` |
 
-Custom `--success` and `--warning` variables are allowed in addition to
-the shadcn set.
+Use `--primary-subtle` and `--primary-subtle-foreground` directly for
+selected states such as the active filter. Custom `--success` and
+`--warning` variables are allowed in addition to the shadcn set.
 
 ## Typography
 

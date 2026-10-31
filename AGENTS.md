@@ -14,5 +14,7 @@ Rules
 Documents
 
 - `_docs/process.md` - how work is organized
-- Before writing tests, read `_docs/testing-guidelines.md`
-- For anything touching the UI, read `_docs/design-system.md`
+- `_docs/testing-guidelines.md` - how to write and run tests; read before writing tests
+- `_docs/design-system.md` - UI tokens, components, states, and copy; read before any UI work
+- `_docs/api.md` - the HTTP API contract; read before changing endpoints, schemas, or the typed client
+- `_docs/plan.md` and `_docs/tasks.md` - the learning plan and the MVP backlog index
