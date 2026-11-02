@@ -14,10 +14,6 @@ def test_engine_uses_configured_database_url() -> None:
     )
 
 
-def test_base_has_no_tables_yet() -> None:
-    assert database.Base.metadata.tables == {}
-
-
 def test_session_factory_creates_configured_sessions() -> None:
     session = database.SessionLocal()
 
